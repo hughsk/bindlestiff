@@ -1,0 +1,32 @@
+{
+  "name": "bindlestiff",
+  "version": "0.0.0",
+  "description": "A light entity/component system for building JavaScript games",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/bindlestiff.git"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "inherits": "~2.0.0",
+    "bindle": "0.0.0",
+    "clone": "~0.1.9"
+  },
+  "devDependencies": {
+    "tape": "~1.0.2"
+  },
+  "keywords": [
+    "game",
+    "entity",
+    "base",
+    "engine",
+    "manager",
+    "mixin",
+    "component"
+  ]
+}
