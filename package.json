@@ -1,6 +1,6 @@
 {
   "name": "bindlestiff",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A light entity/component system for building JavaScript games",
   "main": "index.js",
   "scripts": {
