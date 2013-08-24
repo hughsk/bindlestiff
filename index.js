@@ -10,9 +10,5 @@ bs.manager = Manager
 bs.component = Component
 
 bs.define = function() {
-  inherits(CustomEntity, Entity)
-  function CustomEntity() {
-    Entity.call(this)
-  }
-  return CustomEntity
+  return Entity.extend()
 }
