@@ -36,14 +36,15 @@ var physical = bs.component('physical')
   })
 
 var controllable = bs.component('controllable')
+  .needs('physical')
   .on('tick', function() {
     this.spd[0] = controls.down - controls.up
     this.spd[1] = controls.left - controls.right
   })
 
 var Player = bs.define()
-  .use(controllable)
   .use(physical)
+  .use(controllable)
 
 var player = new Player
 
@@ -83,6 +84,13 @@ entities can be filtered by type by the manager.
 Assigns an event listener to this component. The component itself won't
 listen to this event, but any entities using this component will call
 `handler` when `entity.trigger('event')` is called.
+
+### `component.needs(tag)` ###
+
+Ensures that the entity definition this component is applied has been tagged
+with `tag`. If not, the component will throw an error. *Note that order is
+important here, you should specify your dependent component after its
+dependencies*.
 
 ## Entities ##
 
