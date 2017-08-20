@@ -1,4 +1,6 @@
-# bindlestiff [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges) #
+# bindlestiff [![deprecated](http://hughsk.github.io/stability-badges/dist/deprecated.svg)](http://github.com/hughsk/stability-badges) #
+
+**Deprecated**
 
 A light entity/component system for building JavaScript games. Can
 easily be used alongside other libraries/modules such as [d3](http://d3js.org),
@@ -6,10 +8,6 @@ easily be used alongside other libraries/modules such as [d3](http://d3js.org),
 [three.js](http://threejs.org) - if you're looking for something lighter
 still, the entity's mixin functionality is using
 [bindle](http://github.com/hughsk/bindle) under the hood.
-
-Totally experimental, subject to at least one breaking API change, so think
-twice before you use this (for now). Built with
-[browserify](http://browserify.org/) in mind.
 
 ## Installation ##
 
