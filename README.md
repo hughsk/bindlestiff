@@ -46,7 +46,7 @@ var Player = bs.define()
 
 var player = new Player
 
-manager.add('player')
+manager.add(player)
 
 ticker(60, canvas).on('tick', function() {
   for (var i = 0; i < manager.instances.length; i += 1) {
